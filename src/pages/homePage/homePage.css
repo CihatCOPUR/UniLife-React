@@ -1,0 +1,26 @@
+.searchBar {
+  border: 2px solid red;
+  height: 128px;
+  border-radius: 1px;
+  padding: 35px 70px;
+  width: 80%;
+  margin: -64px auto;
+  background-color: white;
+}
+.dropdown{
+    width: 1000px;
+}
+.searchBar .dropdown  a , .dropdown-menu {
+  width: 100%;
+}
+.searchBar  .dropdown {
+  width: 60%;
+  display: flex;
+  
+}
+
+.findButton{
+    width: 40%;
+    margin-left: 100px;
+}
+

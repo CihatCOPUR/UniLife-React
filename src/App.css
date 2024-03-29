@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif; /* Epilogue yazı tipi ve yedek olarak sans-serif kullanılacak */
+}
+
+.epilogue-font {
+  font-optical-sizing: auto;
+  font-weight: normal; /* Yazı tipinin kalınlığı (normal, bold, vs.) */
+  font-style: normal; /* Yazı tipinin stilini (normal, italic, vs.) */
+}
+
+:root {
+  --blue: #00a2e1;
+}
+
