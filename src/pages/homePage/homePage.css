@@ -1,31 +1,51 @@
 .searchBar {
-    height: 128px;
-    border-radius: 1px;
-    padding: 35px 70px;
-    width: 80%;
-    margin: -64px 10%;
-    background-color: white;
-    position: absolute;
-    border-radius: 25px;
-  }
-  
-  .dropdownSelect {
-    width: 60%;
-    border-radius: 15px;
-    height: 50px;
-    padding: 8px;
-  }
-  
-  .dropdownButton {
-    width: 30%;
-    height: 50px;
-    border-radius: 15px;
-    margin-left: 5%;
-    background-color: var(--darkBlue);
-    color: white;
-    border: none;
-  }
-  .bannerH2{
-    margin-top: 100px;
-    text-align: center;
-  }
+  height: 128px;
+  border-radius: 1px;
+  padding: 35px 70px;
+  width: 80%;
+  margin: -64px 10%;
+  background-color: white;
+  position: absolute;
+  border-radius: 25px;
+}
+
+.dropdownSelect {
+  width: 60%;
+  border-radius: 15px;
+  height: 50px;
+  padding: 8px;
+}
+
+.dropdownButton {
+  width: 30%;
+  height: 50px;
+  border-radius: 15px;
+  margin-left: 5%;
+  background-color: var(--darkBlue);
+  color: white;
+  border: none;
+}
+.bannerH2 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.allCitiesButton {
+  background-color: var(--darkBlue);
+  border-radius: 15px;
+  width: 200px;
+  height: 48px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  margin: 30px 0 100px 0;
+  font-weight: 600;
+  color: white;
+}
+
+.compare div {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
