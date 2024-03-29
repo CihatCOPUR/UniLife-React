@@ -4,25 +4,29 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
-  padding: 6px 90px;
+  padding: 5px 90px;
 }
 .logo {
   display: flex;
   font-size: 30px;
   font-weight: 500;
 }
+.logo svg {
+  margin-top: 5px;
+}
 .logo p {
-  margin: 15px 10px;
+  margin: 16px 8px;
+  font-size: 24px;
 }
 .buttons {
   display: flex;
-  padding-top:10px;
+  padding-top: 20px;
 }
 .buttons div {
   display: flex;
   cursor: pointer;
 }
 .buttons p {
-  font-size: 20px;
-  margin: 10px 0 0 10px;
+  font-size: 16px;
+  margin: 2px 5px;
 }

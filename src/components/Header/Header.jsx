@@ -5,8 +5,8 @@ const Header = () => {
     <div className="header">
       <div className="logo">
         <svg
-          width="56"
-          height="48"
+          width="52"
+          height="47"
           viewBox="0 0 56 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@ const Header = () => {
         <div
         style={{marginRight:'40px'}}>
           <svg
-            width="34"
-            height="35"
+            width="24"
+            height="25"
             viewBox="0 0 24 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -37,8 +37,8 @@ const Header = () => {
         </div>
         <div>
           <svg
-            width="34"
-            height="35"
+            width="24"
+            height="25"
             viewBox="0 0 24 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,34 @@
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.cardItem {
+  margin: 20px;
+  position: relative; /* Kartın pozisyonunu relative yapın */
+  background-color: rgb(185, 173, 159);
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cardItem img {
+  width: 300px; /* Resmin genişliğini kartın genişliğiyle uyumlu hale getirin */
+  height: 200px; /* Resmin oranını koruyun */
+  filter: blur(1.5px); /* Resmi 5 piksel bulanıklaştır */
+  border-radius: 15px;
+}
+
+.textContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 20%;
+  font-weight: 900;
+}
