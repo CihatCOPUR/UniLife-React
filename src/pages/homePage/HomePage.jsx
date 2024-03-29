@@ -18,7 +18,7 @@ const HomePage = () => {
         setCities(data);
       })
       .catch(function (error) {
-        // console.log(error);
+        console.log(error);
       });
   }, []);
 
