@@ -7,6 +7,10 @@ import Card from "../../components/card/Card";
 import compareImg1 from "../../assets/ımg/compare-1.png";
 import compareImg2 from "../../assets/ımg/compare-2.png";
 import compareImg3 from "../../assets/ımg/compare-3.png";
+import compareDiv2 from "../../assets/ımg/compareDiv-2.png";
+import hearth from "../../assets/ımg/hearth.png";
+import men from "../../assets/ımg/homepage-men.png";
+import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
   const [cities, setCities] = useState([]);
@@ -52,6 +56,32 @@ const HomePage = () => {
           <img src={compareImg3} alt="compareImg3" />
         </div>
       </div>
+      <div className="compareDiv2">
+        <div style={{ width: "500px"}} >
+          <div style={{ display: "flex" , marginTop:'50px' }}>
+            <img   src={compareDiv2} width={'40px'} height={'40px'} alt="" />
+            <p>
+              {" "}
+              <span>Best selection</span> <br /> <br /> Best selection of student
+              accommodations. Never been easier to find a home that’s right for
+              you.
+            </p>
+          </div>
+          <div style={{ display: "flex" }}>
+            <img src={hearth}  width={'40px'} height={'40px'}  alt="" />
+            <p>
+              {" "}
+              <span>Your favorite</span> <br /> <br /> Shortlist your favourite
+              properties and send enquiries in one click.
+            </p> 
+      
+          </div>      <button>Search & Compare</button>
+        </div>
+        <div>
+          <img src={men} width={"400px"} height={"450px"} alt="" />
+        </div>
+      </div>
+      <Footer/>
     </center>
   );
 };

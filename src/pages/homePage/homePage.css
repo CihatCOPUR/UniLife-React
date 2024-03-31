@@ -49,3 +49,26 @@
   justify-content: center;
   gap: 60px;
 }
+.compareDiv2{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 150px;
+}
+
+.compareDiv2 p{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.compareDiv2 span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.compareDiv2 button{
+    background-color: var(--darkBlue);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 12px;
+    border: none;
+}

@@ -1,0 +1,81 @@
+.footer {
+  height: 400px;
+  background-color: var(--blue);
+  color: white;
+}
+
+.footerText {
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px 0 100px;
+}
+
+.footerText div {
+  width: 70%;
+  text-align: left;
+  padding: 5% 10%;
+}
+.footerText div p {
+  width: 100%;
+  margin-top: 10px;
+}
+.footerText div p span {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.footerText div input {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  height: 45px;
+  padding: 5px 5px;
+  margin-top: 30px;
+}
+.socialIcons{
+    margin-top: -30px;
+}
+
+.socialIcons div {
+  display: flex;
+  margin-left: -35%;
+  gap: 15px;
+  width: 200px;
+  height: 55px;
+}
+.socialIcons div p {
+  margin-top: 15px;
+}
+
+.letsSocialize {
+  font-size: 2rem;
+  font-weight: 500;
+  
+}
+.links-container {
+    background-color: black;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+ 
+    
+}
+  .copywrite,
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff99;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+  }
+.links a{
+    text-decoration: none;
+    color: inherit;
+}
+.copywrite{
+    margin-top: 10px;
+}
