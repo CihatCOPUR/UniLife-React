@@ -1,0 +1,14 @@
+.cityDetailCard{
+    width: 15%;
+    height: 60px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    border: 1px solid #CED3D8;
+    margin:15px;
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 600;
+  box-shadow: 1px 1px 1px 1px #CED3D8;
+  cursor: pointer;
+}
