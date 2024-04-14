@@ -1,7 +1,7 @@
 import "./card.css";
 
 const Card = ({ cities }) => {
-  // console.log(cities);
+  console.log(cities);
 
   return (
     <div className="cardDiv">

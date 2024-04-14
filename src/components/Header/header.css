@@ -4,7 +4,7 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 90px;
+  
 }
 .logo {
   display: flex;
@@ -20,7 +20,7 @@
 }
 .buttons {
   display: flex;
-  padding-top: 20px;
+ 
 }
 .buttons div {
   display: flex;

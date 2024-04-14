@@ -1,0 +1,21 @@
+.cities{
+    padding-top: 60px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 50px;
+    
+}
+
+.buttons button {
+  width: 15%;
+  height: 60px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  border: 1px solid #CED3D8;
+  margin:15px;
+}

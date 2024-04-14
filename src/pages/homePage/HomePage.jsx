@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import "../homePage/homePage.css";
 import Header from "../../components/header/Header";
 import banner from "../../assets/ımg/overlay.png";
-import axios from "axios";
-import Card from "../../components/card/Card";
+import axios from "axios"; // Axios kütüphanesini import ediyoruz
+import Card from "../../components/cityImageCard/Card";
 import compareImg1 from "../../assets/ımg/compare-1.png";
 import compareImg2 from "../../assets/ımg/compare-2.png";
 import compareImg3 from "../../assets/ımg/compare-3.png";
@@ -15,13 +16,12 @@ import Footer from "../../components/footer/Footer";
 const HomePage = () => {
   const [cities, setCities] = useState([]);
 
-  // all cities endpoint https://unilife-server.herokuapp.com/cities
   useEffect(() => {
+    // Axios ile istek yapma
     axios
       .get("https://unilife-server.herokuapp.com/cities?limit=50")
-      .then(function (res) {
-        const data = res.data.response;
-        // console.log(data);
+      .then(function (response) {
+        const data = response.data.response;
         setCities(data);
       })
       .catch(function (error) {
@@ -47,7 +47,7 @@ const HomePage = () => {
       </center>
       <h2 className="bannerH2">Student accommodations in our top cities</h2>
       <Card cities={cities} />
-      <button className="allCitiesButton">See All Cities</button>
+      <Link to={'/cities'}><button className="allCitiesButton">See All Cities</button></Link>
       <div className="compare">
         <h1>Compare all inclusive student homes.</h1>
         <div>
@@ -57,31 +57,29 @@ const HomePage = () => {
         </div>
       </div>
       <div className="compareDiv2">
-        <div style={{ width: "500px"}} >
-          <div style={{ display: "flex" , marginTop:'50px' }}>
-            <img   src={compareDiv2} width={'40px'} height={'40px'} alt="" />
+        <div style={{ width: "500px" }}>
+          <div style={{ display: "flex", marginTop: "50px" }}>
+            <img src={compareDiv2} width={"40px"} height={"40px"} alt="" />
             <p>
-              {" "}
               <span>Best selection</span> <br /> <br /> Best selection of student
               accommodations. Never been easier to find a home that’s right for
               you.
             </p>
           </div>
           <div style={{ display: "flex" }}>
-            <img src={hearth}  width={'40px'} height={'40px'}  alt="" />
+            <img src={hearth} width={"40px"} height={"40px"} alt="" />
             <p>
-              {" "}
               <span>Your favorite</span> <br /> <br /> Shortlist your favourite
               properties and send enquiries in one click.
-            </p> 
-      
-          </div>      <button>Search & Compare</button>
+            </p>
+          </div>
+          <button>Search & Compare</button>
         </div>
         <div>
           <img src={men} width={"400px"} height={"450px"} alt="" />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </center>
   );
 };
