@@ -16,6 +16,7 @@ const Header = () => {
             fill="white"
           />
         </svg>
+        //kontrol et
         <p>UniLife</p>
       </div>
       <div className="buttons">
